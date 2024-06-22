@@ -2,7 +2,6 @@
    margin:0;
    padding:0;     
 }
-
 body{
   
     font-family: "Poppins", sans-serif;
@@ -12,14 +11,10 @@ body{
     background-color: #fd6569;
     padding:20px;
 }
-
 .container{
     padding:10px;
-
 }
-
 .notes-container{
-   
     padding:15px;
     width: 25%;
     background-color: rgb(0, 0, 0);
@@ -41,7 +36,6 @@ body{
     border:none;
     font-size: 15px;
     margin-top: 10px;
-
 }
 .add-btn{
     background-color: #fd6569;
@@ -154,11 +148,9 @@ body{
         border:none;
         font-weight: 600;
         font-size: 12px;
-        margin-top: 10px;
-    
-    
-    
+        margin-top: 10px;   
 }
+   
 }
 @media(max-width:540px ){
     .navbar{
