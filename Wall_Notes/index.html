@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Wall Notes</h1>
+    </div>
+
+     <div class="container">
+        <!--<div class="notes-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id at cum quisquam voluptatum veritatis odio quasi modi consequuntur perspiciatis, a expedita adipisci, harum nemo amet, vero inventore dolor tempore? Quis!</p>
+            <button onclick="erase(event)">Delete</button> 
+        </div>-->
+    </div> 
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>add notes</h2>
+        <form>
+            <input type="text" id="notes-title" placeholder="Notes Title"> 
+            <input type="text" id="notes-keywords" placeholder="keywords">
+            <textarea id="notes-description" placeholder="short description"></textarea> 
+            <button id="add-notes">Add</button>
+            <button id="cancel-popup" onclick="cancel(event)">Cancel</button>
+        </form>
+    </div>
+    <button class="add-btn" id="plus-btn">+</button>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
